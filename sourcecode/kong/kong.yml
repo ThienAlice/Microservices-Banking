@@ -94,6 +94,7 @@ services:
           - /api/notifications
         strip_path: true
       - name: notification-ws-route
+        strip_path: false
         paths:
           - /ws
         protocols:
